@@ -7,10 +7,12 @@ public class ThirdPersonCamera : MonoBehaviour
     public float RotationSpeed = 1f;
     public Transform Target;
     public Transform Player;
+    Rigidbody rb;
     float mouseX, mouseY;
 
     void Start()
     {
+        rb = Player.GetComponent<Rigidbody>();
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
@@ -34,7 +36,9 @@ public class ThirdPersonCamera : MonoBehaviour
         else
         {
             Target.rotation = Quaternion.Euler(mouseY, mouseX, 0);
-            Player.rotation = Quaternion.Euler(0, mouseX, 0);
+            //Player.rotation = Quaternion.Euler(0, mouseX, 0);
+            rb.rotation = Quaternion.Euler(0, mouseX, 0);
+            //Debug.Log(rb.rotation);
         }
     }
 }
