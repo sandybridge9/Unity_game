@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Breakable_Box
+  - Flying
+  - CoinPickup
+  - HpPickup
   layers:
   - Default
   - TransparentFX
