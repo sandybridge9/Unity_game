@@ -61,17 +61,18 @@ public class Enemy : MonoBehaviour
         float r = Random.Range(0, 1);
         if (r > 0.75)
         {
-            //Instantiate(hpDrop, transform.position, hpDrop.transform.rotation);
+            Instantiate(hpDrop, transform.position, hpDrop.transform.rotation);
         }
         else if (r <= 0.75)
         {
-           // Instantiate(coinDrop, transform.position, coinDrop.transform.rotation);
+            Instantiate(coinDrop, transform.position, coinDrop.transform.rotation);
         }
+        /*
         PlayerManager.instance.deadCount = PlayerManager.instance.deadCount + 1;
         Debug.Log(PlayerManager.instance.deadCount);
         for (int i = 0; i < PlayerManager.instance.deadCount + 1; i++)
         {
             Instantiate(enemyToSpawn, new Vector3(transform.position.x + i + 2, transform.position.y, transform.position.z + i + 2), enemyToSpawn.transform.rotation);
-        }
+        }*/
     }
 }

@@ -79,10 +79,8 @@
     <Compile Include="Assets\Scripts\Useless\PlayerControler.cs" />
     <Compile Include="Assets\Scripts\Useless\ThirdPersonCamera.cs" />
     <None Include="Assets\Assets\USED\Low Poly Medieval Buildings\Blender Files can be edited.txt" />
-    <None Include="Assets\Huge Mocap Library\READTHIS.txt" />
     <None Include="Assets\Assets\DownloadedItems\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
     <None Include="Assets\Assets\DownloadedItems\BloodMageJonas\HairShader.shader" />
-    <None Include="Assets\Huge Mocap Library\mocap animations\cmu-mocap-index-text.txt" />
     <None Include="Assets\Assets\USED\StaffOfPain\readme_first.txt" />
     <None Include="Assets\Assets\DownloadedItems\Low Polygon Potions Pack\Readme.txt" />
     <None Include="Assets\Assets\USED\Low Poly Medieval Buildings\Color Pallet.txt" />
